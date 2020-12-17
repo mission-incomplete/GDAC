@@ -1,0 +1,8 @@
+name=cpu width=4096 height=4096 iterations=5000 threads=8 min=11.53 max=13.51 mean=12.13 avg=12.38 stdev=0.62
+name=cpu width=4096 height=4096 iterations=5000 threads=16 min=10.08 max=10.96 mean=10.71 avg=10.73 stdev=0.25
+name=cpu width=4096 height=4096 iterations=5000 threads=32 min=10.16 max=11.15 mean=10.38 avg=10.60 stdev=0.36
+name=cpu width=4096 height=4096 iterations=5000 threads=64 min=10.97 max=12.33 mean=11.40 avg=11.36 stdev=0.36
+name=cpu width=4096 height=4096 iterations=5000 threads=128 min=11.86 max=12.99 mean=12.17 avg=12.24 stdev=0.33
+name=cpu width=4096 height=4096 iterations=5000 threads=256 min=13.17 max=15.63 mean=14.49 avg=14.24 stdev=0.73
+name=cpu width=4096 height=4096 iterations=5000 threads=512 min=16.59 max=19.06 mean=17.80 avg=17.83 stdev=0.59
+name=cpu width=4096 height=4096 iterations=5000 threads=1024 min=23.51 max=26.24 mean=24.13 avg=24.64 stdev=0.92
