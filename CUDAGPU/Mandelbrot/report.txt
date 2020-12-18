@@ -1,0 +1,48 @@
+
+name=gpu width=4096 height=4096 iterations=5000 gridSize=2097152 blockSize=8 min=1.97 max=2.06 mean=1.98 avg=1.99 stdev=0.03
+name=gpu width=4096 height=4096 iterations=5000 gridSize=1048576 blockSize=16 min=1.97 max=2.07 mean=2.07 avg=1.99 stdev=0.04
+name=gpu width=4096 height=4096 iterations=5000 gridSize=524288 blockSize=32 min=1.97 max=2.05 mean=1.98 avg=1.99 stdev=0.02
+name=gpu width=4096 height=4096 iterations=5000 gridSize=262144 blockSize=64 min=1.97 max=2.04 mean=1.98 avg=1.98 stdev=0.02
+name=gpu width=4096 height=4096 iterations=5000 gridSize=131072 blockSize=128 min=1.97 max=2.04 mean=1.97 avg=1.98 stdev=0.02
+name=gpu width=4096 height=4096 iterations=5000 gridSize=65536 blockSize=256 min=1.97 max=2.04 mean=1.97 avg=1.98 stdev=0.02
+name=gpu width=4096 height=4096 iterations=5000 gridSize=32768 blockSize=512 min=1.97 max=2.04 mean=1.97 avg=1.98 stdev=0.02
+name=gpu width=4096 height=4096 iterations=5000 gridSize=32768 blockSize=512 min=0.15 max=0.24 mean=0.15 avg=0.16 stdev=0.03
+
+
+
+
+
+name=gpu width=4096 height=4096 iterations=5000 gridSize=2097152 blockSize=8 min=0.15 max=0.22 mean=0.15 avg=0.16 stdev=0.02
+name=gpu width=4096 height=4096 iterations=5000 gridSize=1048576 blockSize=16 min=0.15 max=0.24 mean=0.15 avg=0.16 stdev=0.02
+name=gpu width=4096 height=4096 iterations=5000 gridSize=524288 blockSize=32 min=0.15 max=0.24 mean=0.15 avg=0.17 stdev=0.03
+name=gpu width=4096 height=4096 iterations=5000 gridSize=32768 blockSize=512 min=0.15 max=0.25 mean=0.15 avg=0.17 stdev=0.03
+name=gpu width=4096 height=4096 iterations=5000 gridSize=2097152 blockSize=8 min=0.38 max=0.47 mean=0.40 avg=0.40 stdev=0.02
+name=gpu width=4096 height=4096 iterations=5000 gridSize=2097152 blockSize=8 min=0.39 max=0.48 mean=0.40 avg=0.41 stdev=0.03
+name=gpu width=4096 height=4096 iterations=5000 gridSize=2097152 blockSize=8 min=0.06 max=0.15 mean=0.06 avg=0.08 stdev=0.03
+name=gpu width=4096 height=4096 iterations=5000 gridSize=2097152 blockSize=8 min=0.06 max=0.14 mean=0.07 avg=0.08 stdev=0.03
+name=gpu width=4096 height=4096 iterations=5000 gridSize=2097152 blockSize=8 min=1.94 max=2.00 mean=1.94 avg=1.95 stdev=0.02
+name=gpu width=4096 height=4096 iterations=5000 gridSize=2097152 blockSize=8 min=0.14 max=0.23 mean=0.23 avg=0.17 stdev=0.03
+name=gpu width=1024 height=1024 iterations=5000 gridSize=65536 blockSize=16 min=0.74 max=0.82 mean=0.74 avg=0.75 stdev=0.02
+name=gpu width=2048 height=2048 iterations=5000 gridSize=262144 blockSize=16 min=0.91 max=14.27 mean=14.27 avg=3.74 stdev=3.92
+name=gpu width=2048 height=2048 iterations=5000 gridSize=262144 blockSize=16 min=0.58 max=9.06 mean=1.41 avg=2.36 stdev=2.94
+name=gpu width=2048 height=2048 iterations=5000 gridSize=4096 blockSize=1024 min=1.01 max=1.10 mean=1.01 avg=1.02 stdev=0.03
+name=gpu width=2048 height=2048 iterations=5000 gridSize=262144 blockSize=16 min=1.85 max=1.95 mean=1.86 avg=1.87 stdev=0.03
+name=gpu width=2048 height=2048 iterations=5000 gridSize=262144 blockSize=16 min=1.85 max=1.95 mean=1.86 avg=1.87 stdev=0.03
+
+
+
+
+name=gpu width=2048 height=2048 iterations=5000 gridSize=131072 blockSize=32 min=0.98 max=1.08 mean=0.99 avg=1.00 stdev=0.03
+name=gpu width=2048 height=2048 iterations=5000 gridSize=65536 blockSize=64 min=1.01 max=1.11 mean=1.02 avg=1.03 stdev=0.03
+name=gpu width=2048 height=2048 iterations=5000 gridSize=32768 blockSize=128 min=0.99 max=1.07 mean=0.99 avg=1.00 stdev=0.02
+name=gpu width=2048 height=2048 iterations=5000 gridSize=16384 blockSize=256 min=0.99 max=1.07 mean=0.99 avg=1.00 stdev=0.02
+name=gpu width=2048 height=2048 iterations=5000 gridSize=8192 blockSize=512 min=1.00 max=1.08 mean=1.00 avg=1.01 stdev=0.02
+name=gpu width=2048 height=2048 iterations=5000 gridSize=4096 blockSize=1024 min=1.01 max=1.11 mean=1.02 avg=1.03 stdev=0.03
+name=gpu width=2048 height=2048 iterations=5000 gridSize=4096 blockSize=1024 min=1.01 max=1.10 mean=1.01 avg=1.03 stdev=0.03
+name=gpu width=2048 height=2048 iterations=5000 gridSize=131072 blockSize=32 min=0.98 max=1.08 mean=0.98 avg=1.00 stdev=0.03
+name=gpu width=2048 height=2048 iterations=5000 gridSize=4096 blockSize=1024 min=1.01 max=1.12 mean=1.01 avg=1.03 stdev=0.03
+name=gpu width=2048 height=2048 iterations=5000 gridSize=4096 blockSize=1024 min=1.02 max=1.11 mean=1.02 avg=1.03 stdev=0.03
+name=gpu width=2048 height=2048 iterations=5000 gridSize=8192 blockSize=512 min=1.00 max=1.10 mean=1.00 avg=1.01 stdev=0.03
+name=gpu width=2048 height=2048 iterations=5000 gridSize=8192 blockSize=512 min=1.00 max=1.10 mean=1.01 avg=1.01 stdev=0.03
+name=gpu width=2048 height=2048 iterations=5000 gridSize=8192 blockSize=512 min=1.00 max=1.09 mean=1.00 avg=1.01 stdev=0.03
+name=gpu width=2048 height=2048 iterations=5000 gridSize=4096 blockSize=1024 min=1.02 max=1.10 mean=1.03 avg=1.03 stdev=0.03

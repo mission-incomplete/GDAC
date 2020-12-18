@@ -79,13 +79,13 @@ void init_colormap(int len, unsigned char* map) {
 
 }
 
-void set_pixel(unsigned char* image, int width, int x, int y, unsigned char *c) 
-{
-    image[4 * width * y + 4 * x + 0] = c[0];
-    image[4 * width * y + 4 * x + 1] = c[1];
-    image[4 * width * y + 4 * x + 2] = c[2];
-    image[4 * width * y + 4 * x + 3] = 255;
-}
+//void set_pixel(unsigned char* image, int width, int x, int y, unsigned char *c) 
+//{
+//    image[4 * width * y + 4 * x + 0] = c[0];
+//    image[4 * width * y + 4 * x + 1] = c[1];
+//    image[4 * width * y + 4 * x + 2] = c[2];
+//    image[4 * width * y + 4 * x + 3] = 255;
+//}
 
 void save_image(const char* filename, const unsigned char* image, unsigned width, unsigned height) {
     unsigned error;
@@ -106,28 +106,28 @@ void save_image(const char* filename, const unsigned char* image, unsigned width
     free(png);
 }
 
-void description(char* name, char* desc, int gridSize) {
+void description(char* name, char* desc) {
     if (strcmp("cpu", name) == 0) {
         sprintf(desc, "width=%d height=%d iterations=%d threads=%d", WIDTH, HEIGHT, MAX_ITERATION, THREADS);
     }
     else {
-        sprintf(desc, "width=%d height=%d iterations=%d gridSize=%d blockSize=%d", WIDTH, HEIGHT, MAX_ITERATION, gridSize, BLOCK_SIZE);
+        sprintf(desc, "width=%d height=%d iterations=%d gridSize=%d blockSize=%d", WIDTH, HEIGHT, MAX_ITERATION, GRID_SIZE, BLOCK_SIZE);
     }
 }
 
-void progress(char* name, int r, double time, int gridSize) {
+void progress(char* name, int r, double time) {
     char desc[100];
-    description(name, desc, gridSize);
+    description(name, desc);
     fprintf(stderr, "name=%s %s repeat=%d/%d duration=%.2lf\n", name, desc, r + 1, REPEAT, time);
 }
 
-void report(char* name, double* times, int gridSize) {
+void report(char* name, double* times) {
     int r;
     double avg, stdev, min, max, mean;
     char desc[100], rep[255];
     FILE* f;
 
-    description(name, desc, gridSize);
+    description(name, desc);
 
     avg = 0;
     min = times[0];

@@ -8,7 +8,7 @@
 #include "config.h"
 
 
-struct timeb start;
+//struct timeb start;
 
 #ifndef _UTIL_H
 #define _UTIL_H
@@ -29,14 +29,14 @@ void hsv2rgb(float h, float s, float v, unsigned char* rgb);
 
 void init_colormap(int len, unsigned char* map);
 
-void set_pixel(unsigned char* image, int width, int x, int y, unsigned char *c);
+//void set_pixel(unsigned char* image, int width, int x, int y, unsigned char *c);
 
 void save_image(const char* filename, const unsigned char* image, unsigned width, unsigned height);
 
-void description(char* name, char* desc, int gridSize);
+void description(char* name, char* desc);
 
-void progress(char* name, int r, double time, int gridSize);
+void progress(char* name, int r, double time);
 
-void report(char* name, double* times, int gridSize);
+void report(char* name, double* times);
 
 #endif
